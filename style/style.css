@@ -1,0 +1,16 @@
+/*mixin*/
+body {
+    font-size: medium;
+    font-family: font;
+    color: rgb(8, 107, 36);
+  }
+  body ul li a {
+    color: rgb(58, 58, 58);
+    text-decoration: none;
+  }
+  body ul li input {
+    border-radius: 50%;
+  }
+  body ul li input:hover {
+    opacity: 50%;
+  }

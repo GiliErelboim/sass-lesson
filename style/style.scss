@@ -1,0 +1,30 @@
+/*mixin*/
+@mixin fontStyle($font){
+    font-size: medium;
+    font-family: font;
+    color: rgb(8, 107, 36);
+}
+body{
+   @include fontStyle("'Segoe UI', Tahoma, Geneva, Verdana, sans-serif");
+   ul{
+    li{
+        a{
+            color: rgb(58, 58, 58);
+            text-decoration: none;
+        }
+        input {
+            border-radius: 50%;
+            &:hover{
+                opacity: 50%;
+            }
+        }
+    }
+   }
+}
+/*ex.2*/
+.text-danger{
+    
+}
+.text-success{}
+.text-info{}
+.text-warning{}
